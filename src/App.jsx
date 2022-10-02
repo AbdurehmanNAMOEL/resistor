@@ -30,7 +30,7 @@ function App() {
     {IsClosed?<Modal title={title} image={image} setClose={setClose}/>:''}
     <Router>
     
-       {IsPageLoading?<LoadingPage setLoading={setLoading}/>:''}
+       {/* {IsPageLoading?<LoadingPage setLoading={setLoading}/>:''} */}
          <NavBar setTitle={setTitle} setImage={setImage} setClose={setClose}/>
       <Routes>
         
