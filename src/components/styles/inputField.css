@@ -1,0 +1,37 @@
+.input-field-container{
+  width: 80%;
+  height: 80px;
+  margin-bottom: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -4px;
+
+}
+.input-field-title{
+  color: white;
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-size: 14px;
+  
+} 
+
+input{
+    height: 35px;
+    text-indent: 4px;
+    outline: none;
+    border: 1px solid #12121259;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.error{
+    color: red;
+    font-weight: bolder;
+    margin-top: 4px;
+    font-size: small;
+    font-family: Poppins;
+    
+}

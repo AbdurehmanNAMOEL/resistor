@@ -1,0 +1,11 @@
+.card-container{
+    width: 550px;
+    height: 400px;
+    box-shadow: 5px 5px 20px 2px;
+    border: 2px solid #12121252;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

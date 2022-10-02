@@ -1,0 +1,76 @@
+.resistor-container{
+    width: 300px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-container,.right-container{
+    width: 30%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-band,.six-band{
+    width: 10px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.541);
+}
+
+.second-band,.third-band,.fourth-band,.five-band{
+    width: 10px;
+    height: 35px;
+    background: rgba(0, 0, 0, 0.541);
+}
+.left-wire,.right-wire{
+    height: 4px;
+    width: 50%;
+    background-color: #121212;
+    background-color: rgb(138, 94, 13);
+    
+}
+.left-circle,.right-circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    background-color: wheat;
+}
+
+
+
+.middle-container{
+    width: 40%;
+    height: 35px;
+    background-color: wheat;
+    margin-left: -25px;
+    display: flex;
+}
+
+.second-band{
+    margin-left: 25px;
+}
+.third-band,.fourth-band,.five-band{
+   margin-left: 10px;
+}
+
+
+.right-circle{
+    margin-left: -15px;
+}
+.right-wire{
+ margin-left: -5px;
+ z-index: 5;
+}
+

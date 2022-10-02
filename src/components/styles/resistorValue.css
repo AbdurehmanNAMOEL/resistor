@@ -1,0 +1,57 @@
+.input-value-container-fourBand,
+.input-value-container-fiveBand,
+.input-value-container-fiveBand{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+.input-value-container-fiveBand{
+    margin-left: 40px;
+}
+.input-value-container-fourBand{
+    margin-left: 83px;
+}
+.total-resistance-value,
+.max-value,
+.min-value,
+.tolerance{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+ 
+}
+
+
+@media only screen and (max-width: 540px) {
+
+.total-resistance-value,
+.max-value,
+.min-value,
+.tolerance{
+    width: 80%;
+    font-size: 15px;
+    margin-left: 80px;
+}
+.input-value-container-fiveBand,
+.input-value-container-sixBand,
+.input-value-container-fourBand{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 50px 50px;
+    grid-row-gap: 5px;
+  
+}
+.input-value-container-fiveBand{
+    margin-left: -3px;
+}
+.input-value-container-fourBand{
+    margin-left: 43px;
+}
+}
+
+

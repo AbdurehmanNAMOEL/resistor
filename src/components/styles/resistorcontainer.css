@@ -1,0 +1,122 @@
+.big-container{
+    width: 550px;
+    height: 400px;
+    border: 2px solid #2c2828bd;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #121212;
+    color: white;
+}
+.resistor-component-container{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selectors-container{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.value-display-for-fourBand,
+.value-display-for-fiveBand,
+.value-display-for-sixBand{
+    width: 470px;
+    height: 200px;
+    margin-left: 15px
+}
+
+.temp-cof{
+    width: 400px;
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 12px;
+}
+
+.input-container{
+    width: 75%; 
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    gap: 10px;
+}
+
+.submit-btn-fiveBand,
+.submit-btn-fourBand,
+.submit-btn-sixBand{
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    z-index: 10;
+    background-color: rgba(6, 213, 240,0.6);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.submit-btn-fiveBand:hover,
+.submit-btn-fourBand:hover,
+.submit-btn-sixBand:hover{
+    background-color: rgb(6, 213, 240);
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
+
+.submit-btn-fiveBand,
+.submit-btn-fourBand{
+    margin-top: -5px;
+}
+
+
+@media only screen and (max-width: 540px) {
+
+
+.selectors-container{
+    width: 80%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 80px 80px;
+    grid-template-rows: 50px 50px 50px;
+    margin-left: 30px;
+    grid-column-gap: 60px;
+}
+.value-display-for-fourBand{
+  margin-top: 50px;
+}
+.value-display-for-fiveBand,
+.value-display-for-sixBand{
+   
+    margin-top: 120px;
+    margin-left: 60px;
+   
+}
+.submit-btn-fiveBand,
+.submit-btn-fourBand{
+    margin-top: -7px;
+}
+
+.submit-btn-sixBand{
+    margin-top: 20px;
+}
+
+}
